@@ -6,10 +6,10 @@ in the USA. Moreover, it is an outsdanding educational, science, technical, cult
 the world. It makes Boston to be extremely attractive to move there for living from the other states and even abroad. So that why
 Boston is pretty high-densily populated and multicultural, forming communities, spread in one or more city neighborhoods.
 
-Different people have various criterias, except cost of living, when determine where they are going to relocate in any kind of place.
-It can be a nearby school rates for families with children, transport accessability and highways proximity ratings for commuters, etc. 
-Also a safety is a main priority for many of them, and it will be one of the aims of my research for potential future Bostonians, like
-my family, now discussing the possibility to relocate to Boston from northern Massachusetts.
+Different people have various criterias, except cost of living, when determine where they are going to relocate in any kind 
+of place.It can be a nearby school rates for families with children, transport accessability and highways proximity ratings 
+for commuters, etc. Also a safety is a main priority for many of them, and it will be one of the aims of my research for 
+potential future Bostonians, like my family, now discussing the possibility to relocate to Boston from northern Massachusetts.
 
 Boston is officially divided on 23 neighborohoods, which are pretty different in areas and population. In my research I will
 take into account another district division using 17 neighborohoods, due to some data limitations, which will be described in
@@ -35,8 +35,8 @@ places I decided to use the bigger map to increase a visibility
 b) https://data.boston.gov/dataset/boston-police-stations csv file was used to obtain the numbers of police districts, which are not the
 same with geografical, and map it with geografical districts from the previous dataset
 
-c) https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system csv file was used to receive the data about crimes in 2018-2019
-time period
+c) https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system csv file was used to receive the data 
+about crimes in 2018-2019 time period
 
 All 3 datasets were used to make a folium map with choropleth, reflecting the total of crime incidents per police districts, including 
 heighborohoods respectively
