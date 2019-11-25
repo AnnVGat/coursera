@@ -18,8 +18,8 @@ the next section.
 Accessability and proximity to the venues, like restaurants, parks, theaters, gyms are the important part of quality of life 
 conception almost for everyone and can't be ignored during making of where-to relocation decision.
 
-A future resident should take into consideration the factors described upper and a lot more. I'm going to focus on the crime rates
-of Boston neighborohoods and analisys of it venues from point of view of potential Boston citizen.
+A future resident should take into consideration the factors described upper and a lot more. I'm going to focus on the crime 
+rates of Boston neighborohoods and analisys of it venues from point of view of potential Boston citizen.
 I hope, that my investigation can help people, who are thinking about moving there to insight into the safety and infrastructure.
 
 2. Data
@@ -27,22 +27,22 @@ I hope, that my investigation can help people, who are thinking about moving the
 The main source of the data used in my work is a portal https://data.boston.gov/. It provides a variety of data, including census,
 crime, climate and geospatial.
 
-a) https://data.boston.gov/dataset/planning-districts geojson file was used to build neighborhoods borders on a folium map. I've tryed
-to use another geojson file from this site with more districts (23 as mentioned in the section upper) but it created a mess in a city 
-centre where very small districts are located. Due to the similarity of type of buildings and its being the most crowded and touristic 
-places I decided to use the bigger map to increase a visibility
+a) https://data.boston.gov/dataset/planning-districts geojson file was used to build neighborhoods borders on a folium map.
+I've tryed to use another geojson file from this site with more districts (23 as mentioned in the section upper) but it created 
+a mess in a city centre where very small districts are located. Due to the similarity of type of buildings and its being the most
+crowded and touristic places I decided to use the bigger map to increase a visibility
 
-b) https://data.boston.gov/dataset/boston-police-stations csv file was used to obtain the numbers of police districts, which are not the
-same with geografical, and map it with geografical districts from the previous dataset
+b) https://data.boston.gov/dataset/boston-police-stations csv file was used to obtain the numbers of police districts, which
+are not the same with geografical, and map it with geografical districts from the previous dataset
 
-c) https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system csv file was used to receive the data 
-about crimes in 2018-2019 time period
+c) https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system csv file was used to receive 
+the data about crimes in 2018-2019 time period
 
-All 3 datasets were used to make a folium map with choropleth, reflecting the total of crime incidents per police districts, including 
-heighborohoods respectively
+All 3 datasets were used to make a folium map with choropleth, reflecting the total of crime incidents per police districts,
+including heighborohoods respectively
 
-d) https://data.boston.gov/dataset/public-libraries/resource/ce600f93-20ee-446d-89fd-0f0a92d6f24e csv file was used to receive coordinates
-to use it as centers of studied neigborohoods
+d) https://data.boston.gov/dataset/public-libraries/resource/ce600f93-20ee-446d-89fd-0f0a92d6f24e csv file was used to receive 
+coordinates to use it as centers of studied neigborohoods
 
 e) Foursquare API was used to obtain information about venues in Boston neighborohoods, like top 10 venues per neighborohood
 
