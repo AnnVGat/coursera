@@ -1,41 +1,48 @@
 The best place to live: Boston neighborhoods crime rate and venue data
 1. Introduction/Business Problem
-Being inhabitated with ~700,000 in 2018, Boston, Massachusetts, is the biggest city of New England and one is the most populous in the USA. Moreover,
-it is an outsdanding educational, science, technical, cultural, health care research centre known all over the world. It makes Boston to be
-extremely attractive to move there for living from the other states and even abroad. So that why Boston is pretty high-densily populated
-and multicultural, forming communities, spread in one or more city neighborhoods.
+
+Being inhabitated with ~700,000 in 2018, Boston, Massachusetts, is the biggest city of New England and one is the most populous
+in the USA. Moreover, it is an outsdanding educational, science, technical, cultural, health care research centre known all over
+the world. It makes Boston to be extremely attractive to move there for living from the other states and even abroad. So that why
+Boston is pretty high-densily populated and multicultural, forming communities, spread in one or more city neighborhoods.
 
 Different people have various criterias, except cost of living, when determine where they are going to relocate in any kind of place.
 It can be a nearby school rates for families with children, transport accessability and highways proximity ratings for commuters, etc. 
-Also a safety is a main priority for many of them, and it will be one of the aims of my research for potential future Bostonians, like my
-family, now discussing the possibility to relocate to Boston from northern Massachusetts.
+Also a safety is a main priority for many of them, and it will be one of the aims of my research for potential future Bostonians, like
+my family, now discussing the possibility to relocate to Boston from northern Massachusetts.
 
 Boston is officially divided on 23 neighborohoods, which are pretty different in areas and population. In my research I will
-take into account another district division using 17 neighborohoods, due to some data limitations, which will be described in the next section.
+take into account another district division using 17 neighborohoods, due to some data limitations, which will be described in
+the next section.
 
-Accessability and proximity to the venues, like restaurants, parks, theaters, gyms are the important part of quality of life conception
-almost for everyone and can't be ignored during making of where-to relocation decision.
+Accessability and proximity to the venues, like restaurants, parks, theaters, gyms are the important part of quality of life 
+conception almost for everyone and can't be ignored during making of where-to relocation decision.
 
-A future resident should take into consideration the factors described upper and a lot more. I'm going to focus on the crime rates of Boston neighborohoods
-and analisys of it venues from point of view of potential Boston citizen.
+A future resident should take into consideration the factors described upper and a lot more. I'm going to focus on the crime rates
+of Boston neighborohoods and analisys of it venues from point of view of potential Boston citizen.
 I hope, that my investigation can help people, who are thinking about moving there to insight into the safety and infrastructure.
 
 2. Data
-The main source of the data used in my work is a portal https://data.boston.gov/. It provides a variety of data, including census, crime, climate and geospatial.
 
-a) https://data.boston.gov/dataset/planning-districts geojson file was used to build neighborhoods borders on a folium map. I've tryed to use another geojson file
-from this site with more districts (23 as mentioned in the section upper) but it created a mess in a city centre where very small districts are located. Due to
-the similarity of type of buildings and its being the most crowded and touristic places I decided to use the bigger map to increase a visibility
+The main source of the data used in my work is a portal https://data.boston.gov/. It provides a variety of data, including census,
+crime, climate and geospatial.
 
-b) https://data.boston.gov/dataset/boston-police-stations csv file was used to obtain the numbers of police districts, which are not the same with geografical,
-and map it with geografical districts from the previous dataset
+a) https://data.boston.gov/dataset/planning-districts geojson file was used to build neighborhoods borders on a folium map. I've tryed
+to use another geojson file from this site with more districts (23 as mentioned in the section upper) but it created a mess in a city 
+centre where very small districts are located. Due to the similarity of type of buildings and its being the most crowded and touristic 
+places I decided to use the bigger map to increase a visibility
+
+b) https://data.boston.gov/dataset/boston-police-stations csv file was used to obtain the numbers of police districts, which are not the
+same with geografical, and map it with geografical districts from the previous dataset
 
 c) https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system csv file was used to receive the data about crimes in 2018-2019
 time period
 
-All 3 datasets were used to make a folium map with choropleth, reflecting the total of crime incidents per police districts, including heighborohoods respectively
+All 3 datasets were used to make a folium map with choropleth, reflecting the total of crime incidents per police districts, including 
+heighborohoods respectively
 
-d) https://data.boston.gov/dataset/public-libraries/resource/ce600f93-20ee-446d-89fd-0f0a92d6f24e csv file was used to receive coordinates to use it as centers of studied neigborohoods
+d) https://data.boston.gov/dataset/public-libraries/resource/ce600f93-20ee-446d-89fd-0f0a92d6f24e csv file was used to receive coordinates
+to use it as centers of studied neigborohoods
 
 e) Foursquare API was used to obtain information about venues in Boston neighborohoods, like top 10 venues per neighborohood
 
